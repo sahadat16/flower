@@ -738,10 +738,19 @@ span {
     }
 }
 
+@media (max-width: 540px) {
+    .home-text h1 {
+        margin-top: 200px;
+        font-size: 2rem;
+    }
+
+}
+
+
 @media (max-width: 375px){
     .home-text h1 {
         margin-top: 250px;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .about .row .video-container h3 {
